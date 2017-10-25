@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SDK</title>
+	<meta content="width=device-width, initial-scale=0.8, user-scalable=no" name="viewport">
+	<link rel="stylesheet" href="css/compass/reset.css">
+	<link rel="stylesheet" href="css/compass/grid.css">
+	<link rel="stylesheet" href="css/susy.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="top">
+		<div class="middle">
+		<div class="h_block_middle">
+			<img src="./img/logo.png" alt="">
+			<div>
+				<button class="cart" type="submit">Корзина</button>
+				<button type="submit">Войти</button>
+				
+			</div>
+		</div>
+			<div class="h_block_navi">
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="catalog.html">О нас</a></li>
+					<li><a href="dostavka.html">Доставка оплата</a></li>
+					<li><a href="contact.html">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="h_block_navi mobi">
+				<ul class="mobi">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="catalog.html">О нас</a></li>
+					<li><a href="dostavka.html">Доставка оплата</a></li>
+					<li><a href="contact.html">Контакты</a></li>
+				</ul>
+			</div>
+			<img src="img/iconfindermenu.svg" id="pull">
+       <img src="img/iconfinderClose.svg" id="pull-close">
+		</div>
+	</header>
+	<main class="main dostavka_index">
+    
+	    <div class="section tab contact" id="section1">
+	    	<div class="middle">
+	    	<div class="t-1-info-block right">
+				<h1>Контакты</h1>
+				<p class="h2">Телефон</p>
+				<p><a href="tel:+ 8 (555) 55-55-555">+ 8 (555) 55-55-555</a></p>
+				<p class="h2">Почтовый адрес</p>
+				<p><a href="mailto:gicode@mail.ru">gicode@mail.ru</a></p>
+				<p class="h2">Адрес</p>
+				<p>Москва, ул. Мясницкая, д. 20</p>
+				</div>
+				
+				<div style="clear: both;"></div>
+			</div>
+    	<a href="#section2" class="next"><img src="./img/next.png" alt=""></a>
+	    </div>
+	    <div class="section contact_text shadow">
+	    <a id="section2" class="none"></a>
+	    <div class="middle">
+	    	<div class="h1">Карта</div>
+	    		<div id="maps">
+	    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.8225563309747!2d37.631134316062784!3d55.76158459878192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5de2123c87%3A0x49e0282321a5956a!2z0JzRj9GB0L3QuNGG0LrQsNGPINGD0LsuLCAyMCwg0JzQvtGB0LrQstCwLCAxMDEwMDA!5e0!3m2!1sru!2sru!4v1507263817450" width="100%" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+	    	</div>
+	    		<div class="footer contact_footer">
+						<div class="middle">
+							<ul class="footer_navi">
+								<li><a href="/index.html">Главная</a></li>
+								<li><a href="#">О нас</a></li>
+								<li><a href="dostavka.html">Доставка оплата</a></li>
+								<li><a href="contact.html">Контакты</a></li>
+							</ul>
+							<div class="footer_post">
+								
+							</div>
+						</div>
+					</div>
+						<div style="clear: both;"></div>
+				</div>
+	    </div>
+			
+	</main>
+<div class="popup_overlay"></div>
+<div class="popup">
+ <span class="closer"><img src="img/iconfinderClose.svg" id="pull-close"></span>
+  <div class="popup_title">
+    Заказать звонок 
+  </div>
+  <div class="popup_content">
+  <form  class="form">
+		<input type="hidden" name="nospam:blank" value="" />
+		<input type="text" placeholder="ИМЯ" name="name" id="name"  />
+		<input type="text" placeholder="ТЕЛЕФОН" name="phone" id="phone"  />
+		<input type="text" name="email" placeholder="Почта@mail.ru" id="email"  />
+
+		<input type="submit" class="blue_tab_b" value="ЗАКАЗАТЬ" />
+	</form>
+  </div>
+</div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+	<script src="js/mod.js"></script>	
+</body>
+</html>

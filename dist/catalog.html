@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SDK</title>
+	<meta content="width=device-width, initial-scale=0.8, user-scalable=no" name="viewport">
+	<link rel="stylesheet" href="css/compass/reset.css">
+	<link rel="stylesheet" href="css/compass/grid.css">
+	<link rel="stylesheet" href="css/susy.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="top">
+		<div class="middle">
+		<div class="h_block_middle">
+			<img src="./img/logo.png" alt="">
+			<div>
+				<button class="cart" type="submit">Корзина</button>
+				<button type="submit">Войти</button>
+				
+			</div>
+		</div>
+			<div class="h_block_navi">
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="catalog.html">О нас</a></li>
+					<li><a href="dostavka.html">Доставка оплата</a></li>
+					<li><a href="contact.html">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="h_block_navi mobi">
+				<ul class="mobi">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="catalog.html">О нас</a></li>
+					<li><a href="dostavka.html">Доставка оплата</a></li>
+					<li><a href="contact.html">Контакты</a></li>
+				</ul>
+			</div>
+			<img src="img/iconfindermenu.svg" id="pull">
+       <img src="img/iconfinderClose.svg" id="pull-close">
+		</div>
+	</header>
+	<main class="main dostavka_index">
+		<div class="section tab catalog" id="section1">
+			<div class="middle">
+				<div class="popup_overlay_three"></div>
+				<div class="t-1-info-block right">
+					<h1>Lorem Ipsum Dolor Sit  Amet</h1>
+					<h3>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ipsum nisl, tristique in molestie sit amet, faucibus non lectus.
+					</h3>
+					<div class="t-1-forma">
+						<button class="red_tab_b" type="submit">Подробнее</button>
+					</div>
+				</div>
+			
+				<div style="clear: both;"></div>
+			</div>
+			<a href="#section2" class="next"><img src="./img/next.png" alt=""></a>
+		</div>
+		<div class="section catalog_text shadow">
+		<a id="section2" class="none"></a>
+			<div class="middle ">
+				<div class="h1">О нас</div>
+				<div class="tab_text_info_block">
+					<div class="info_block_text-img">
+						<div class="info_block_text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia illum est, perspiciatis nobis neque cum quos iure nam eveniet saepe.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, deleniti!
+						</div>
+						<div class="info_block_img">
+							<img src="img/o_nas_fl1.jpg" alt="">
+						</div>
+					</div>
+					<div class="info_block_text-img">
+						<div class="info_block_text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia illum est, perspiciatis nobis neque cum quos iure nam eveniet saepe.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, deleniti!
+						</div>
+						<div class="info_block_img">
+							<img src="img/o_nas_fl2.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="footer dostavka_footer">
+					<div class="middle">
+						<ul class="footer_navi">
+							<li><a href="/index.html">Главная</a></li>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Доставка оплата</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+						<div class="footer_post"> </div>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+	</main>
+	<div class="popup_overlay"></div>
+	<div class="popup"> <span class="closer"><img src="img/iconfinderClose.svg" id="pull-close"></span>
+		<div class="popup_title"> Заказать звонок </div>
+		<div class="popup_content">
+			<form class="form">
+				<input type="hidden" name="nospam:blank" value="" />
+				<input type="text" placeholder="ИМЯ" name="name" id="name" />
+				<input type="text" placeholder="ТЕЛЕФОН" name="phone" id="phone" />
+				<input type="text" name="email" placeholder="Почта@mail.ru" id="email" />
+				<input type="submit" class="blue_tab_b" value="ЗАКАЗАТЬ" /> </form>
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/mod.js"></script>
+</body>
+</html>
